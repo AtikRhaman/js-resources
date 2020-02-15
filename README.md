@@ -1,2 +1,2 @@
 # js-resources
-1. hexacolor genarator function
+1. making graph/chart
