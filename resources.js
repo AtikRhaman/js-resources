@@ -13,3 +13,17 @@ for (const num of data) {
   div.textContent = num;
   chart.appendChild(div);
 }
+
+// hexa color genarator
+const hexaColorGenarator = () => {
+  let hexaString = "0123456789abcdef";
+  let hexaColor = "#";
+  for (let i = 0; i < 6; i++) {
+    let index = Math.floor(Math.random() * hexaString.length);
+    hexaColor += hexaString[index];
+  }
+  return hexaColor;
+};
+hexaColorGenarator();
+console.log(hexaColorGenarator());
+
