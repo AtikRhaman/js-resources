@@ -28,7 +28,7 @@ hexaColorGenarator();
 console.log(hexaColorGenarator());
 
 
-// time and date
+//3. time and date
 const timeDate = () => {
   const monthNames = [
     "January",
@@ -55,7 +55,8 @@ const timeDate = () => {
     month + " " + date + ", " + years + " " + hours + ":" + min + ":" + sec;
   return fullDate;
 };
-// 3. swapValue
+
+// 4. swapValue
 const swapValue = (x, y) => {
   var tmp = x;
   x = y;
