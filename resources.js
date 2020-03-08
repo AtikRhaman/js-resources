@@ -14,7 +14,7 @@ for (const num of data) {
   chart.appendChild(div);
 }
 
-// hexa color genarator
+// 2. hexa color genarator
 const hexaColorGenarator = () => {
   let hexaString = "0123456789abcdef";
   let hexaColor = "#";
@@ -55,5 +55,14 @@ const timeDate = () => {
     month + " " + date + ", " + years + " " + hours + ":" + min + ":" + sec;
   return fullDate;
 };
+// 3. swapValue
+const swapValue = (x, y) => {
+  var tmp = x;
+  x = y;
+  y = tmp;
+  console.log(x);
+  console.log(y);
+};
+swapValue(10, 20);
 
 
